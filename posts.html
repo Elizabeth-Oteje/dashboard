@@ -123,36 +123,36 @@
                    </div>
                </div>
                <br>
-               <table class="table table-striped table-hover">
+               <table class="table table-striped table-hover" id="items">
                    <tr>
                        <th>Title</th>
                        <th>Published</th>
                        <th>Created</th>
                        <th></th>
                     </tr>
-                    <tr>
+                    <tr  onclick="remove(this)" class="delete">
                         <td>Blog Post 1</td>
                         <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
                         <td>Dec 12, 2016</td>
-                        <td><a class="btn btn-default" href="edit.html">Edit</a><a class="btn btn-danger" href="#">Delete</a></td>
+                        <td><a class="btn btn-default" href="edit.html">Edit</a><a class="btn btn-danger delete" href="#">Delete</a></td>
                      </tr>
-                     <tr>
+                     <tr  onclick="remove(this)" class="delete">
                         <td>Blog Post 2</td>
                         <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
                         <td>Dec 13, 2016</td>
-                        <td><a class="btn btn-default" href="edit.html">Edit</a><a class="btn btn-danger" href="#">Delete</a></td>
+                        <td><a class="btn btn-default" href="edit.html">Edit</a><a class="btn btn-danger delete" href="#">Delete</a></td>
                      </tr>
-                     <tr>
+                     <tr  onclick="remove(this)" class="delete">
                         <td>Blog Post 3</td>
                         <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
                         <td>Dec 13, 2016</td>
-                        <td><a class="btn btn-default" href="edit.html">Edit</a><a class="btn btn-danger" href="#">Delete</a></td>
+                        <td><a class="btn btn-default" href="edit.html">Edit</a><a class="btn btn-danger delete" href="#">Delete</a></td>
                      </tr>
-                     <tr>
+                     <tr  onclick="remove(this)" class="delete">
                         <td>Blog Post 4</td>
                         <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
                         <td>Dec 14, 2016</td>
-                        <td><a class="btn btn-default" href="edit.html">Edit</a><a class="btn btn-danger" href="#">Delete</a></td>
+                        <td><a class="btn btn-default" href="edit.html">Edit</a><a class="btn btn-danger delete" href="#">Delete</a></td>
                      </tr>
                </table>
               </div>
@@ -229,5 +229,6 @@
     <!-- <script src="../../assets/js/jquery.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="/main.js"></script>
   </body>
 </html>
